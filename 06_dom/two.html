@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM </title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">day1</div>
+         <div class="day">day2</div>
+          <div class="day">day3</div>
+           <div class="day">4</div>
+            <div class="day">5</div>
+             <div class="day">6</div>
+    </div>
+</body>
+<script>
+    const parent = docment.querySelector(' .parent')
+    console.log(parent);
+     console.log(parent.children);
+      console.log(parent.children[i].innerHTML);
+
+      for (let index = 0; index <parent.children.length; index++) {
+       console.log(parent.children[index].innerHTML);
+        
+      }
+
+      prent.children[1].style.color = "orange"
+      console.log(parent.firtElementChild);
+      console.log(parent.lastElementChild);
+
+      const dayOne =document.querySelector('./day')
+      console.log(dayOne);
+      console.log(dayOne.parentElement);
+      console.log(dayOne.nextElementSibling);
+
+      console.log("NODES: parent.childNodes");
+      
+
+    </script>
+</html>
