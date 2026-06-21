@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const requestUrl ='https://api.github.com/users/Jyotichaubey01'
+   const xhr = newXMLHttpRequest();
+   xhr.open('GET',requestUrl)
+   xhr.onreadystatechange = function(){
+    console.log(xhr.readyState);
+   
+   console.log(xhr.readyState);
+   if(xhr.readyState === 4){
+     console.log(this.ResponseText);
+   }
+
+}
+
+
+
+    xhr.send()
+</script>
+</html>
