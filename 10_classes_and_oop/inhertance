@@ -1,0 +1,25 @@
+
+class User {
+    constructor(username){
+        this.username = username
+    }
+}
+
+log(){
+    console.log(`USERNAME is${this.username}`);
+
+}
+
+classTeacher extends User{
+    constructor(username,ElementInternals,passord){
+        super(username)
+        this.email =email
+        this.password = password
+    }
+
+    addCoures(){
+        console.log(`$this.username}`);
+    }
+}
+const cahi = Teacher("ndslkjf", "fjwlkd","12")
+chai.addCoures()
